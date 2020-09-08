@@ -1,0 +1,28 @@
+<%- include('./partials/head')-%>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+
+        <form action="/table/add/factory" method="POST">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">add energy</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="peugeot" name="energyName" >
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">add factory</label>
+              <textarea type='text' class="form-control" id="exampleFormControlInput1" placeholder="essance" name="factoryName" ></textarea>
+            </div>
+            <div>
+                <button type="submit" >Ajouter energy</button>
+            </div>
+        </form>
+
+        
+
+    </div>
+  </div>
+</div>
+
+
+<%- include('./partials/footer')-%>
